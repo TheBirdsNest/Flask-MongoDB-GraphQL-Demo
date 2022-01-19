@@ -1,0 +1,103 @@
+regions:
+  - name: Europe
+  - name: Russia
+  - name: Americas
+  - name: Asia
+
+templates:
+  - name: pst_eur_01
+    region: Europe
+    mpls_count: 1
+    isp_count: 0
+    dia_count: 0
+    high_availability: False
+  - name: pst_eur_02
+    region: Europe
+    mpls_count: 2
+    isp_count: 0
+    dia_count: 0
+    high_availability: True
+  - name: pst_eur_03
+    region: Europe
+    mpls_count: 0
+    isp_count: 1
+    dia_count: 1
+    high_availability: False
+  - name: pst_eur_04
+    region: Europe
+    mpls_count: 0
+    isp_count: 0
+    dia_count: 2
+    high_availability: True 
+  - name: pst_rus_01
+    region: Russia
+    mpls_count: 1
+    isp_count: 0
+    dia_count: 0
+    high_availability: False
+  - name: pst_rus_02
+    region: Russia
+    mpls_count: 2
+    isp_count: 0
+    dia_count: 0
+    high_availability: True
+  - name: pst_rus_03
+    region: Russia
+    mpls_count: 0
+    isp_count: 1
+    dia_count: 1
+    high_availability: False
+  - name: pst_rus_04
+    region: Russia
+    mpls_count: 0
+    isp_count: 0
+    dia_count: 2
+    high_availability: True 
+  - name: pst_asa_01
+    region: Asia
+    mpls_count: 1
+    isp_count: 0
+    dia_count: 0
+    high_availability: False
+  - name: pst_asa_02
+    region: Asia
+    mpls_count: 2
+    isp_count: 0
+    dia_count: 0
+    high_availability: True
+  - name: pst_asa_03
+    region: Asia
+    mpls_count: 0
+    isp_count: 1
+    dia_count: 1
+    high_availability: False
+  - name: pst_asa_04
+    region: Asia
+    mpls_count: 0
+    isp_count: 0
+    dia_count: 2
+    high_availability: True 
+  - name: pst_usa_01
+    region: Americas
+    mpls_count: 1
+    isp_count: 0
+    dia_count: 0
+    high_availability: False
+  - name: pst_usa_02
+    region: Americas
+    mpls_count: 2
+    isp_count: 0
+    dia_count: 0
+    high_availability: True
+  - name: pst_usa_03
+    region: Americas
+    mpls_count: 0
+    isp_count: 1
+    dia_count: 1
+    high_availability: False
+  - name: pst_usa_04
+    region: Americas
+    mpls_count: 0
+    isp_count: 0
+    dia_count: 2
+    high_availability: True 

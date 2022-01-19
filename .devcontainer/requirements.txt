@@ -1,0 +1,6 @@
+Flask
+Flask-GraphQL
+graphene
+graphene-mongo
+mongoengine
+PyYAML
